@@ -48,7 +48,7 @@
 #endif
 /*! \brief use CUDA support, must ensure that the cuda include path is correct, or directly compile using nvcc */
 #ifndef MSHADOW_USE_CUDA
-  #define MSHADOW_USE_CUDA   1
+  #define MSHADOW_USE_CUDA   0
 #endif
 /*! \brief use single precition float */
 #ifndef MSHADOW_SINGLE_PRECISION
